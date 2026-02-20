@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "users": [
+    { "email": "alice@example.com", "active": true,  "until": "2025-12-31" },
+    { "email": "bourdinjoaquin@gmail.com",   "active": true },
+    { "email": "mati.mantzuranis@gmail.com",   "active": true },
+    { "email": "antonioaditommaso@gmail.com",   "active": true },
+    { "email": "sofidangelo@hotmail.com",   "active": true },
+    { "email": "julirosello@hotmail.com",   "active": true },
+    { "email": "martinezaguus@gmail.com",   "active": true },
+    { "email": "juan.duranti7@gmail.com",   "active": true }
+  ],
+  "updated": "2025-09-01T00:00:00Z"
+}
