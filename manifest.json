@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Crossfy Bot",
+  "description": "Auto-reserva de clases en Crossfy — click para activar",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "version": "3",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://app.crossfyapp.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "action": {
+    "default_title": "Crossfy Bot",
+    "default_icon":  "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+  {
+    "resources": ["bot.js"],
+    "matches": ["https://app.crossfyapp.com/*"]
+  }
+]
+}
